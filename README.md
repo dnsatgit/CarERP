@@ -2,7 +2,7 @@
 Pet Project: Introduction to C# ASP.net MVC 
 
 +##################################################
-#Project Requirements:
+#+Project Requirements:
 1. Customers need to be able to make bookings via webpage, phone of site visit.
 2. There should be a prompt login credentials(Cutomers or employees).
 3. Also, allow customers to register.

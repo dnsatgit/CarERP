@@ -12,18 +12,8 @@ namespace CarERP.Controllers
         public ActionResult Index()
         {
             ViewBag.product = "Customer";
-
-            var model = new AddCustomerViewModel()
-            {
-                first_name = "Dorje",
-                last_name = "Sherpa",
-                phone = 6171111111,
-                address = "1000 Loring ave., Salem, MA 00000",
-                email = "d_sherpa@salemstate.edu",
-                id = 0309438,
-
-            };
-            return View(model);
+    
+            return View();
         }
 
         [HttpGet]

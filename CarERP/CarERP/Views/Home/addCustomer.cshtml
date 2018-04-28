@@ -1,7 +1,7 @@
 ﻿@model CarERP.Models.AddCustomerViewModel
 
 @{
-    ViewBag.Title = "addCustomer";
+    ViewBag.Title = "Customer Sign Up";
 }
 
 <h2>addCustomer</h2>
@@ -12,9 +12,9 @@
     
 <div class="form-horizontal">
     <h4>AddCustomerViewModel</h4>
-    <p>@ViewBag.result</p>
     <hr />
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <p>@ViewBag.result</p>
     <div class="form-group">
         @Html.LabelFor(model => model.first_name, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">

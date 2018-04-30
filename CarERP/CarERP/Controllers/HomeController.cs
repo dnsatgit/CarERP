@@ -19,14 +19,14 @@ namespace CarERP.Controllers
         [HttpGet]
         public ActionResult addCustomer()
         {
-            return View(new AddCustomerViewModel());
+            return View(new CustomerViewModel());
         }
         [HttpPost]
-        public ActionResult addCustomer(AddCustomerViewModel model)
+        public ActionResult addCustomer(CustomerViewModel model)
         {
             if (ModelState.IsValid)
                 ViewBag.result = "Customer has been added sucessfully.";
-            return View(new AddCustomerViewModel());
+            return View(new CustomerViewModel());
         }
     }
 }

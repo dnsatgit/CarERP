@@ -7,7 +7,7 @@ using System.Web;
 
 namespace CarERP.Models
 {
-    public class AddCustomerViewModel
+    public class CustomerViewModel
     {
 
         [DisplayName("First Name:")]

@@ -19,24 +19,9 @@ namespace CarERPFinal.Controllers
         }
 
         // GET: Services
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index()
         {
-            var services = from m in _context.Services
-                         select m;
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                services =services.Where(s => s.ServiceName.Contains(searchString));
-            }
-
-            return View(await services.ToListAsync());
-
-            
-    }
-        [HttpPost]
-        public string Index(string searchString, bool notUsed)
-        {
-            return "From [HttpPost]Index: filter on " + searchString;
+            return View(await _context.Services.ToListAsync());
         }
 
         // GET: Services/Details/5

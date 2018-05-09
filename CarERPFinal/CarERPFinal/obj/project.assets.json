@@ -9132,11 +9132,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dorje\\Desktop\\CarERPFinal\\CarERPFinal\\CarERPFinal.csproj",
+      "projectUniqueName": "C:\\Users\\dorje\\OneDrive\\Documents\\GitHub\\CarERP\\CarERPFinal\\CarERPFinal\\CarERPFinal.csproj",
       "projectName": "CarERPFinal",
-      "projectPath": "C:\\Users\\dorje\\Desktop\\CarERPFinal\\CarERPFinal\\CarERPFinal.csproj",
+      "projectPath": "C:\\Users\\dorje\\OneDrive\\Documents\\GitHub\\CarERP\\CarERPFinal\\CarERPFinal\\CarERPFinal.csproj",
       "packagesPath": "C:\\Users\\dorje\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dorje\\Desktop\\CarERPFinal\\CarERPFinal\\obj\\",
+      "outputPath": "C:\\Users\\dorje\\OneDrive\\Documents\\GitHub\\CarERP\\CarERPFinal\\CarERPFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

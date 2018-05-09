@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace CarERPFinal.Models
@@ -14,5 +15,7 @@ namespace CarERPFinal.Models
         public string ServiceType { get; set; }
         public decimal Price { get; set; }
         public string CustomerRating { get; set; }
+
+        public ICollection<Request> Requests { get; set; }
     }
 }
